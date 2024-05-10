@@ -16,10 +16,9 @@ verificare che non si stia cercando di dividere per 0
 MILESTONE 1
 1) Aggiungere event listener a tutti i numeri
 
-- HTML: aggiungo un id="tastiUnoNove" al <div class row numbers>
-- JS: richiamo il div id="tastiUnoNove"
-    esempio: const tastiUnoNove = document.getElementById('tastiUnoNove');
-- una volta selezionati tutti, aggiungo un unico addEventListener
+- HTML: aggiungo una classe="tastiUnoNove" ai bottoni da 1 a 9
+- JS: ogni bottone avrà il proprio listener e stamperà il messaggio corretto in console quando viene cliccato.
+per selezionarli tutti faccio querySelectorAll('tastiUnoNove)
 
 
 
